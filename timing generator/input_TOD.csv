@@ -1,0 +1,9 @@
+[TOD],int_id,timing_plan_no,from_time,to_time,starting_phase,off_set,,,
+,1,1,0,18000,1,11,,,
+,1,2,18001,54000,2,12,,,
+,1,3,54001,72000,3,13,,Note,you can have multiple timings in a day
+,1,4,72001,86400,4,14,,off_set,it is typically defined with the TOD plan and as the local_clock at intersections minus system clock. So it can be used for traffic signal coordination in meso simulator. 
+,2,1,0,18000,1,21,,,
+,2,2,18001,54000,2,22,,,
+,2,3,54001,72000,3,23,,,
+,2,4,72001,86400,4,24,,,
