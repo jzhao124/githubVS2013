@@ -183,7 +183,7 @@ void timing::generate_timing_input()
 			cout << int_timing_id[int_timing_id_iter->first].size() << endl;
 			cout << mapping_signal_links[int_timing_id_iter->first].size() << endl;
 			//end testing
-
+			///
 			cout << "The number of total timing plans in two inputs files does not match, please check and run this program again!\n";
 			system("pause");
 			exit(1);
